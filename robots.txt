@@ -1,0 +1,17 @@
+# robots.txt
+# MRYAGAMI QUANTUM FORCE
+
+User-agent: *
+Disallow: /api/
+Allow: /
+
+# Googlebot
+User-agent: Googlebot
+Disallow: /api/
+
+# Bingbot
+User-agent: bingbot
+Disallow: /api/
+
+# Sitemap
+Sitemap: https://mryagami-report.pages.dev/sitemap.xml

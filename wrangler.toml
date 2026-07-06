@@ -1,0 +1,19 @@
+# wrangler.toml
+# Konfigurasi untuk Cloudflare Pages / Workers
+
+name = "mryagami-report"
+main = "_worker.js"
+compatibility_date = "2024-12-01"
+
+[[pages]]
+    build_command = ""
+    destination = "/"
+
+# Env variables (optional)
+# [vars]
+# SECRET_KEY = "your-secret-key"
+
+# Routes
+# [[routes]]
+# pattern = "report.mryagami.com/*"
+# zone_id = "your-zone-id"
