@@ -1,7 +1,7 @@
 # wrangler.toml
 # Konfigurasi untuk Cloudflare Pages / Workers
 
-name = "mryagami-report"
+name = "report-pedo-web"
 main = "_worker.js"
 compatibility_date = "2024-12-01"
 
